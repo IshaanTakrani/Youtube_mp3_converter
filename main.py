@@ -60,8 +60,10 @@ while(continue_status):
     
     continue_status = str(input("Convert another file(Y/n)\n>> "))
 
-    if(continue_status.lower() != "y" or continue_status.lower() != "yes"):
+    if(continue_status == "N" or continue_status == "n"):
         break
+    else:
+        pass
 
 print("-"*71)
 
