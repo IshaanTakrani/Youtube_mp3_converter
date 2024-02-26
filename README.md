@@ -7,9 +7,9 @@ Youtube_mp3 converter is a service that converts youtube videos to mp3 audio via
 
 To install the application, download *dist/main.exe*
 
-In order to use and run the python script, the pytube, os, music_tag, moviepy, and pashlib libraries are needed.
+In order to use and run the python script, the _pytube_, _os_, _music_tag_, _moviepy_, _pathlib_, and _random_ libraries are needed.
 
-Install these packages using pip install in your terminal.
+Install these libraries using pip install in your terminal.
 
 Example: 
 ```python
