@@ -4,6 +4,7 @@ import os
 import music_tag
 from moviepy.editor import VideoFileClip
 from pathlib import Path
+from sys import exit
 
 print('''
 Ishaan Takrani's
@@ -13,7 +14,7 @@ Ishaan Takrani's
  / \ (_) | |_| | |_| |_| | |_) |  __/ | || (_) | | | | | | | |_) |__) |
  \_/\___/ \__,_|\__|\__,_|_.__/ \___|  \__\___/  |_| |_| |_| .__/____/ 
                                                            |_|         
-v 1.3.0
+v 1.3.1
       ''')
 
 
@@ -90,6 +91,7 @@ while(continue_status):
     video = yt.streams.filter().first()
 
     print("-"*20)
+    
     inp_path = str(input("Enter Directory (curr for current directory, empty for default music directory): \n>> "))
 
     if (inp_path == "curr"):
