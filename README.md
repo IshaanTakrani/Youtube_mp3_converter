@@ -2,8 +2,8 @@
 
 Youtube_mp3 converter is a service that converts youtube videos to mp3 audio via URL.
 >Please note that Ishaan Takrani does not condone nor promote the 
->conversion of copyrighted content, not the use of converted mp3s for
->commercial use without fair attribution/permission from the source's creator
+>conversion of copyrighted content, nor the use of content aquired through this service for
+>commercial use without fair attribution/permission from the source's creator.
 
 To install the application, download *dist/main.exe*
 
