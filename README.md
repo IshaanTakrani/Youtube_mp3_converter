@@ -17,3 +17,4 @@ pip install pytube
 ```
 
 For an executable, you can install pyinstaller, the run the command ```pyinstaller main.py --onefile``` in your terminal, or download and run main.exe from releases.
+The executable works for 64-bit windows.
